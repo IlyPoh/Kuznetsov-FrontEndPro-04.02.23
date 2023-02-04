@@ -2,7 +2,6 @@ body {
   background: #000;
   font-family: sans-serif;
   color: #fff;
-  text-align: center;
   margin: 0;
   height: 100vh;
 }
@@ -11,6 +10,10 @@ body {
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
+}
+
+.content {
+  padding: 20px 0;
 }
 
 .section {
@@ -25,6 +28,20 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+ul li {
+  border-left: 3px solid white;
+  margin-bottom: 5px;
+  padding-left: 10px;
 }
 
 .btn {
@@ -44,41 +61,4 @@ body {
   border: 1px solid #000;
   -webkit-box-shadow: 0 0 0 0.05rem #fff;
           box-shadow: 0 0 0 0.05rem #fff;
-}
-
-.burger {
-  max-width: 500px;
-  margin: 0 auto;
-  padding-top: 150px;
-}
-.burger-title {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-.burger-form .burger-row:after {
-  content: "";
-  width: calc(100% - 50px);
-  height: 1px;
-  background: #fff;
-  display: block;
-  margin: 10px auto 0;
-  opacity: 0.2;
-}
-.burger-row {
-  width: 100%;
-}
-.burger .section {
-  border: 1px solid #fff;
-  padding: 20px;
-  border-bottom: 0;
-}
-.burger .section:last-child {
-  border-bottom: 1px solid #fff;
-}
-.burger select {
-  background: #000;
-  border: 1px solid #fff;
-  padding: 5px 20px;
-  color: #fff;
-  outline: none;
 }
