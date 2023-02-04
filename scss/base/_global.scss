@@ -2,7 +2,6 @@ body {
     background: $color-black;
     font-family: sans-serif;
     color: $color-white;
-    text-align: center;
     margin: 0;
     height: 100vh;
 }
@@ -11,9 +10,25 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+.content {
+    padding: 20px 0;
+}
 .section {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+h2 {
+    margin-top: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 10px;
+
+    li {
+        border-left: 3px solid white;
+        margin-bottom: 5px;
+        padding-left: 10px;
+    }
 }
